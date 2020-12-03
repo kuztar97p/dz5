@@ -106,5 +106,11 @@
 
 ###########################################################
 
+#my_list = [2,4,1,5,3,9,0,7]
+#counter = 0
+#for index in range(1, len(my_list) - 1):
+#    if my_list[index - 1] < my_list[index] > my_list[index + 1]:
+#        counter += 1
+#print(counter)
 
 
