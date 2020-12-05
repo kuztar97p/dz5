@@ -1,116 +1,115 @@
-#values = 23423404234024040004230
-#my_symbol = "0"
+values = 23423404234024040004230
+my_symbol = "0"
 
-#count = values.count(my_symbol)
-#print(count)
+count = values.count(my_symbol)
+print(count)
 
 #########################################
 
-#value = 23240344200003423000
-#count = 0
-#while value % 10 == 0:
-#    count += 1
-#    value //= 10
-#print(count)
+value = 23240344200003423000
+count = 0
+while value % 10 == 0:
+    count += 1
+    value //= 10
+print(count)
 
 ########################################
 
-#my_list_1 = [1, 2, 3, 4, 5]
-#my_list_2 = [10, 15, 20, 25]
-#my_result = []
+my_list_1 = [1, 2, 3, 4, 5]
+my_list_2 = [10, 15, 20, 25]
+my_result = []
 
-#for value in my_list_1:
-#    if value % 2 == 0:
-#        my_result.append(value)
+for value in my_list_1:
+    if value % 2 == 0:
+        my_result.append(value)
 
-#for value in my_list_2:
-#    if value % 2 == 1:
-#        my_result.append(value)
+for value in my_list_2:
+    if value % 2 == 1:
+        my_result.append(value)
 
-#print(my_result)
+print(my_result)
 
 ############################################
 
-#my_list = [1, 2, 3, 4, 5]
-#new_list = []
+my_list = [1, 2, 3, 4, 5]
+new_list = []
 
-#for symbol in my_list:
-#    if symbol not in new_list:
-#        new_list.append(symbol)
+for symbol in my_list:
+    if symbol not in new_list:
+        new_list.append(symbol)
 
-#new_list.append(new_list[0])
-#new_list.pop(0)
-#print(new_list)
+new_list.append(new_list[0])
+new_list.pop(0)
+print(new_list)
 
 ###################################################
 
-#my_list = [1, 2, 3, 4, 5]
+my_list = [1, 2, 3, 4, 5]
 
-#my_list.append(my_list[0])
-#my_list.pop(0)
-#print(my_list)
+my_list.append(my_list[0])
+my_list.pop(0)
+print(my_list)
 
 
 ######################################################
 
-#my_str = '43 больше чем 34 но меньше чем 56'
-#new_str = my_str.split()
-#my_list = []
+my_str = '43 больше чем 34 но меньше чем 56'
+new_str = my_str.split()
+my_list = []
 
+for index in new_str:
+    if index.isdigit() == True:
+        my_list.append(int(index))
 
-#for index in new_str:
-#    if index.isdigit() == True:
-#        my_list.append(int(index))
-
-#print(sum(my_list))
+print(sum(my_list))
 
 ########################################################
-#import re
-#my_str = 'qwerrrtyu'
-#my_str_2 = '_'
+import re
+my_str = 'qwerrrtyu'
+my_str_2 = '_'
 
-#if len(my_str) % 2 == 1:
-#    my_str = my_str + my_str_2
+if len(my_str) % 2 == 1:
+    my_str = my_str + my_str_2
 
-#items = re.findall(r'.{1,2}', my_str )
+items = re.findall(r'.{1,2}', my_str )
 
-#print(items)
+print(items)
 
 #######################################################
 
-#my_str = "My_long string"
-#l_limit = "o"
-#r_limit = "t"
-#sub_str = []
+my_str = "My_long string"
+l_limit = "o"
+r_limit = "t"
+sub_str = []
 
-#index_l = my_str.find(l_limit)+1
-#index_r = my_str.find(r_limit)
-#sub_str = my_str[index_l:index_r]
+index_l = my_str.find(l_limit)+1
+index_r = my_str.find(r_limit)
+sub_str = my_str[index_l:index_r]
 
-#print(sub_str)
+print(sub_str)
 
 ####################################################
 
-#my_str = "My long string"
-#l_limit = "o"
-#r_limit = "g"
-#sub_str = []
+my_str = "My long string"
+l_limit = "o"
+r_limit = "g"
+sub_str = []
 
-#index_l = my_str.find(l_limit)+1
-#index_r = my_str.rfind(r_limit)
-#sub_str = my_str[index_l:index_r]
+index_l = my_str.find(l_limit)+1
+index_r = my_str.rfind(r_limit)
+sub_str = my_str[index_l:index_r]
 
 
-#print(sub_str)
+print(sub_str)
 
 
 ###########################################################
 
-#my_list = [2,4,1,5,3,9,0,7]
-#counter = 0
-#for index in range(1, len(my_list) - 1):
-#    if my_list[index - 1] < my_list[index] > my_list[index + 1]:
-#        counter += 1
-#print(counter)
+my_list = [2,4,1,5,3,9,0,7]
+counter = 0
+for index in range(1, len(my_list) - 1):
+    if my_list[index - 1] < my_list[index] > my_list[index + 1]:
+        counter += 1
+print(counter)
 
 
